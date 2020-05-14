@@ -13,6 +13,5 @@ jobs:
         FIRST_NAME: Julius
         MIDDLE_NAME: Mugambe
         LAST_NAME: Jae Beom
-    - name: Echo the greeting's time
       run: |
         echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
