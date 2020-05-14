@@ -12,6 +12,6 @@ jobs:
       MY_VAR: Hi there! My name is
       FIRST_NAME: Julius
       MIDDLE_NAME: Mugambe
-      LAST_NAME: Jae_Beom
+      LAST_NAME: JaeBeom
     run: |
       echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
