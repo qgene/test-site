@@ -7,8 +7,7 @@ jobs:
     name: Learnig GitHub
     runs-on: windows-latest
   steps:
-    - name: Print a greeting
-      env:
+        env:
         MY_VAR: Hi there! My name is
         FIRST_NAME: Julius
         MIDDLE_NAME: Mugambe
