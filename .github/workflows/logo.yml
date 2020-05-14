@@ -7,10 +7,11 @@ jobs:
     name: Learnig GitHub
     runs-on: windows-latest
   steps:
-        env:
-        MY_VAR: Hi there! My name is
-        FIRST_NAME: Julius
-        MIDDLE_NAME: Mugambe
-        LAST_NAME: Jae_Beom
-      run: |
-        echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+    - name: My first action
+      env:
+      MY_VAR: Hi there! My name is
+      FIRST_NAME: Julius
+      MIDDLE_NAME: Mugambe
+      LAST_NAME: Jae_Beom
+    run: |
+      echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
