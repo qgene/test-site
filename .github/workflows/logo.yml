@@ -1,0 +1,17 @@
+name: Hello Qgene
+on: [push]
+jobs:
+  my_first_job:
+    name: Logo
+  my_second_job:
+    name: Learnig GitHub
+  runs-on: windows-latest
+  steps:
+    - name: Print a greeting
+      env:
+        MY_VAR: Hi there! My name is
+        FIRST_NAME: Julius
+        MIDDLE_NAME: Mugambe
+        LAST_NAME: Jae Beom
+      run: |
+        echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
