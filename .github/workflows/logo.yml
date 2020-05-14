@@ -5,7 +5,7 @@ jobs:
     name: Logo
   my_second_job:
     name: Learnig GitHub
-  runs-on: windows-latest
+  runs-on: [self-hosted, windows]
   steps:
     - name: Print a greeting
       env:
