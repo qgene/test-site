@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Qgene"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/logo with clour.png"
   bio    : "The best Quantitative genetics study you will find!"
   links:
     - label: "Website"
